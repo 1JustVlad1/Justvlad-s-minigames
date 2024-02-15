@@ -1,5 +1,5 @@
 team add sgn1.participant
-team join sgn1.participant dummy
+
 #
         scoreboard objectives add bool dummy
 

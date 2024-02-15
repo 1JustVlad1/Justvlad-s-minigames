@@ -5,14 +5,6 @@ scoreboard players operation @s prev_dim = @s cur_dim
 
 execute if predicate lobby:lobby_check run scoreboard players set @s cur_dim 0
 execute if predicate short_game_name_1:game_1_check run scoreboard players set @s cur_dim 1
-execute if predicate short_game_name_2:game_2_check run scoreboard players set @s cur_dim 2
-execute if predicate short_game_name_3:game_3_check run scoreboard players set @s cur_dim 3
-execute if predicate short_game_name_4:game_4_check run scoreboard players set @s cur_dim 4
-execute if predicate short_game_name_5:game_5_check run scoreboard players set @s cur_dim 5
-execute if predicate short_game_name_6:game_6_check run scoreboard players set @s cur_dim 6
-execute if predicate short_game_name_7:game_7_check run scoreboard players set @s cur_dim 7
-execute if predicate short_game_name_8:game_8_check run scoreboard players set @s cur_dim 8
-execute if predicate short_game_name_9:game_9_check run scoreboard players set @s cur_dim 9
 
 
 execute if entity @s[tag=!player] run function core:global/join_handler/joined_for_the_first_time

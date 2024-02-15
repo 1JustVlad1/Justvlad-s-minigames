@@ -2,12 +2,10 @@
     #global
         team add nocol
         team modify nocol collisionRule never
-        team join nocol dummy
 
         team add lobby {"text":"Наблюдатели"}
         team modify lobby friendlyFire false
-        team modify lobby color 
-        team join lobby dummy
+        team modify lobby color gray
 #
 
 #scoreboards
