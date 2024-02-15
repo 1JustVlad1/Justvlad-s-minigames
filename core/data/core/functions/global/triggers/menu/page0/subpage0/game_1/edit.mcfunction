@@ -5,3 +5,4 @@ execute if score active sgn1.settings matches 0 run tellraw @s [{"text":" ","col
 execute if score active sgn1.settings matches 1 run tellraw @s [{"text":" ","color":"gray"},{"text":"Состояние: ","color":"gray"},{"text":"[Открыто]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Нажать"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -10004"}}]
 
 tellraw @s [{"text":" ","color":"gray"},{"text":"[Старт]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Нажать"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -10001"}},{"text":" [Стоп]","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Нажать"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -10002"}}]
+

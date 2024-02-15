@@ -1,3 +1,3 @@
 
 gamemode spectator @s
-# function game:no_team
+# function short_game_name_1:no_team

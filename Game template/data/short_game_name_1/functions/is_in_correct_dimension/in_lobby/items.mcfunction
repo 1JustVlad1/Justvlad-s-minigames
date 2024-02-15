@@ -1,0 +1,6 @@
+clear @s
+
+
+function short_game_name_1:is_in_correct_dimension/in_lobby/max_players
+function short_game_name_1:is_in_correct_dimension/in_lobby/hotbar/items
+function short_game_name_1:is_in_correct_dimension/in_lobby/inventory/items
