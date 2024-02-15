@@ -37,9 +37,22 @@ execute if score @s menu matches -8200 run function short_game_name_7:triggers/m
 execute if score @s menu matches -9200 run function short_game_name_8:triggers/menu/helper_settings/tools/open
 execute if score @s menu matches -1200 run function short_game_name_9:triggers/menu/helper_settings/tools/open
 
+execute if score @s menu matches -1101 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1102 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1103 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1104 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1105 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1106 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1107 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1108 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1109 run function core:global/triggers/menu/page0/players/player_1/open
+execute if score @s menu matches -1110 run function core:global/triggers/menu/page0/players/player_1/open
+
+
 execute if score @s menu matches -1400 run function lobby:triggers/menu/helper_settings/players/page1/open
 execute if score @s menu matches -1600 run function lobby:triggers/menu/helper_settings/players/page2/open
-execute if score @s menu matches -2400 run function short_game_name_1:triggers/menu/helper_settings/players/page1/open
+execute if score @s menu matches -2599..-2400 run function short_game_name_1:triggers/menu/helper_settings/players/page1
+
 execute if score @s menu matches -2600 run function short_game_name_1:triggers/menu/helper_settings/players/page2/open
 execute if score @s menu matches -3400 run function short_game_name_2:triggers/menu/helper_settings/players/page1/open
 execute if score @s menu matches -3600 run function short_game_name_2:triggers/menu/helper_settings/players/page2/open
