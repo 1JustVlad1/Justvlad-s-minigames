@@ -1,1 +1,1 @@
-give @s bat_spawn_egg{display:{Name:'{"text":"Спавн - game#1 Игоровой","italic":false}'},EntityTag:{Tags:["egg","lobby","spawn","short_game_name_1"]}}
+give @s bat_spawn_egg{display:{Name:'{"text":"Спавн - Общий","italic":false}'},EntityTag:{Tags:["egg","game","spawn","short_game_name_1"]}}

@@ -95,4 +95,5 @@ execute in build:short_game_name_1/main run forceload add -48 -48 48 48
 execute in build:short_game_name_1/theme/winter run forceload add -48 -48 48 48
 
 
-tellraw @a {"text":"- short_game_name_1 Загружено"}
+data modify storage short_game_name_1:storage current_version set value [1,0,0,0]
+tellraw @a [{"text":"","color":"white"},{"text":"Загружено ","color":"green"},{"nbt":"game_titles[0]","storage":"core:storage","color":"gray"},{"text":" v"},{"nbt":"current_version[0]","storage":"short_game_name_1:storage","interpret":true},{"text":"."},{"nbt":"current_version[1]","storage":"short_game_name_1:storage","interpret":true},{"text":"."},{"nbt":"current_version[2]","storage":"short_game_name_1:storage","interpret":true},{"text":"."},{"nbt":"current_version[3]","storage":"short_game_name_1:storage","interpret":true},{"text":" (Рекоммендуемое ядро"},{"text":" v"},{"nbt":"recommended_core_version[0]","storage":"short_game_name_1:storage","interpret":true},{"text":"."},{"nbt":"recommended_core_version[1]","storage":"short_game_name_1:storage","interpret":true},{"text":"."},{"nbt":"recommended_core_version[2]","storage":"short_game_name_1:storage","interpret":true},{"text":"."},{"nbt":"recommended_core_version[3]","storage":"short_game_name_1:storage","interpret":true},{"text":")"}]

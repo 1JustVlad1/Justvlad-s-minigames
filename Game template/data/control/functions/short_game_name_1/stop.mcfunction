@@ -5,7 +5,7 @@ effect clear @a[predicate=short_game_name_1:game_1_check]
 
 tag @a[team=!lobby] add sgn1.ready
 tag @a[team=!lobby] add tmp
-execute as @a if predicate short_game_name_1:game_1_check run function short_game_name_1:is_in_correct_dimension/in_lobby/items
+execute as @a if dimension map:short_game_name_1 run function short_game_name_1:is_in_correct_dimension/in_lobby/items
 team empty lobby
 team empty sgn1.red
 team join sgn1.r_red @a[team=,tag=tmp]
@@ -27,5 +27,5 @@ team join sgn1.r_gold @a[team=,tag=tmp]
 tag @a remove tmp
 
 
-execute as @a if predicate short_game_name_1:game_1_check run function control:short_game_name_1/tp
+execute as @a if dimension map:short_game_name_1 run function control:short_game_name_1/tp
 

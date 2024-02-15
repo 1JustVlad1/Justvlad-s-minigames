@@ -43,4 +43,5 @@ execute in build:lobby/main run forceload add -48 -48 48 48
 execute in build:lobby/theme/winter run forceload add -48 -48 48 48
 
 
-tellraw @a {"text":"- Лобби загружено"}
+data modify storage lobby:storage current_version set value [1,0,0,0]
+tellraw @a [{"text":"","color":"white"},{"text":"Загружено ","color":"green"},{"text":"Лобби ","color":"gray"},{"text":"v"},{"nbt":"current_version[0]","storage":"lobby:storage","interpret":true},{"text":"."},{"nbt":"current_version[1]","storage":"lobby:storage","interpret":true},{"text":"."},{"nbt":"current_version[2]","storage":"lobby:storage","interpret":true},{"text":"."},{"nbt":"current_version[3]","storage":"lobby:storage","interpret":true},{"text":" (Рекоммендуемое ядро"},{"text":" v"},{"nbt":"recommended_core_version[0]","storage":"lobby:storage","interpret":true},{"text":"."},{"nbt":"recommended_core_version[1]","storage":"lobby:storage","interpret":true},{"text":"."},{"nbt":"recommended_core_version[2]","storage":"lobby:storage","interpret":true},{"text":"."},{"nbt":"recommended_core_version[3]","storage":"lobby:storage","interpret":true},{"text":")"}]

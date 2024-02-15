@@ -12,3 +12,17 @@ execute if score @s menu matches -2011 run function short_game_name_1:triggers/m
 execute if score @s menu matches -2012 run function short_game_name_1:triggers/menu/helper_settings/edit/add_time
 execute if score @s menu matches -2013 run function short_game_name_1:triggers/menu/helper_settings/edit/remove_time
 
+execute if score @s menu matches -2201 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/lobby
+execute if score @s menu matches -2202 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/game
+execute if score @s menu matches -2203 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/red
+execute if score @s menu matches -2204 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/green
+execute if score @s menu matches -2205 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/blue
+execute if score @s menu matches -2206 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/yellow
+execute if score @s menu matches -2207 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/dark_red
+execute if score @s menu matches -2208 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/dark_green
+execute if score @s menu matches -2209 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/dark_blue
+execute if score @s menu matches -2210 run function short_game_name_1:triggers/menu/helper_settings/tools/spawn/gold
+
+execute if score @s menu matches -2410 run function short_game_name_1:triggers/menu/helper_settings/players/page1/subpage2
+execute if score @s menu matches -2420 run function short_game_name_1:triggers/menu/helper_settings/players/page1/subpage3
+

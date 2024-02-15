@@ -4,16 +4,16 @@ execute store result storage core:storage reports[0].timestamp long 1 run time q
 execute store result storage core:storage reports[0].authorId long 1 run scoreboard players get @s id
 execute store result storage core:storage reports[0].reportId long 1 run scoreboard players add reports id 1
 
-execute if predicate lobby:lobby_check run data modify storage core:storage reports[0].dimension set value "Лобби"
-execute if predicate short_game_name_1:game_1_check run data modify storage core:storage reports[0].dimension set from storage core:storage game_titles[0]
-execute if predicate short_game_name_2:game_2_check run data modify storage core:storage reports[1].dimension set from storage core:storage game_titles[1]
-execute if predicate short_game_name_3:game_3_check run data modify storage core:storage reports[2].dimension set from storage core:storage game_titles[2]
-execute if predicate short_game_name_4:game_4_check run data modify storage core:storage reports[3].dimension set from storage core:storage game_titles[3]
-execute if predicate short_game_name_5:game_5_check run data modify storage core:storage reports[4].dimension set from storage core:storage game_titles[4]
-execute if predicate short_game_name_6:game_6_check run data modify storage core:storage reports[5].dimension set from storage core:storage game_titles[5]
-execute if predicate short_game_name_7:game_7_check run data modify storage core:storage reports[6].dimension set from storage core:storage game_titles[6]
-execute if predicate short_game_name_8:game_8_check run data modify storage core:storage reports[7].dimension set from storage core:storage game_titles[7]
-execute if predicate short_game_name_9:game_9_check run data modify storage core:storage reports[8].dimension set from storage core:storage game_titles[8]
+execute if dimension map:lobby run data modify storage core:storage reports[0].dimension set value "Лобби"
+execute if dimension map:short_game_name_1 run data modify storage core:storage reports[0].dimension set from storage core:storage game_titles[0]
+execute if dimension map:short_game_name_2 run data modify storage core:storage reports[1].dimension set from storage core:storage game_titles[1]
+execute if dimension map:short_game_name_3 run data modify storage core:storage reports[2].dimension set from storage core:storage game_titles[2]
+execute if dimension map:short_game_name_4 run data modify storage core:storage reports[3].dimension set from storage core:storage game_titles[3]
+execute if dimension map:short_game_name_5 run data modify storage core:storage reports[4].dimension set from storage core:storage game_titles[4]
+execute if dimension map:short_game_name_6 run data modify storage core:storage reports[5].dimension set from storage core:storage game_titles[5]
+execute if dimension map:short_game_name_7 run data modify storage core:storage reports[6].dimension set from storage core:storage game_titles[6]
+execute if dimension map:short_game_name_8 run data modify storage core:storage reports[7].dimension set from storage core:storage game_titles[7]
+execute if dimension map:short_game_name_9 run data modify storage core:storage reports[8].dimension set from storage core:storage game_titles[8]
 
 
 data modify storage core:storage reports[0].report_description set from entity @s SelectedItem.tag.title

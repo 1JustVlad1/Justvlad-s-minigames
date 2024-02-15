@@ -29,10 +29,11 @@ gamerule mobGriefing false
 #
 
 data modify storage core:donate links set value ["https://www.donationalerts.com/r/it_was_goose"]
-data modify storage core:storage game_titles set value ["SquidCatch","Mini-games Rush","Game#3","Game#4","Game#5","Game#6","Game#7","Game#8","Game#9"]
 
 data modify storage core:errors log set value []
 data modify storage core:errors core.log set value []
+
+data modify storage core:storage game_titles set value ["SquidCatch","Mini-games Rush","Game#3","Game#4","Game#5","Game#6","Game#7","Game#8","Game#9"]
 
 
 function lobby:init/consts
@@ -47,4 +48,5 @@ function short_game_name_8:init/consts
 function short_game_name_9:init/consts
 
 
-tellraw @a [{"text":"- ","color":"gray"},{"text":"Константы"},{"text":" Загружено","color":"green"}]
+
+tellraw @a [{"text":"- ","color":"gray"},{"text":"Константы (общий)"},{"text":" Загружено","color":"green"}]

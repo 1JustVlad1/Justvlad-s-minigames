@@ -1,4 +1,4 @@
-execute as @a if predicate short_game_name_1:game_1_check run function short_game_name_1:is_in_correct_dimension/in_lobby/items
+execute as @a if dimension map:short_game_name_1 run function short_game_name_1:is_in_correct_dimension/in_lobby/items
 tag @s remove sgn1.ready
 team empty sgn1.red
 team empty sgn1.r_red

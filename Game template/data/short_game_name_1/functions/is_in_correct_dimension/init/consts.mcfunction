@@ -17,3 +17,6 @@ scoreboard players set max.dark_red sgn1.settings 4
 scoreboard players set max.dark_green sgn1.settings 4
 scoreboard players set max.dark_blue sgn1.settings 4
 scoreboard players set max.gold sgn1.settings 4
+
+
+tellraw @a [{"text":"- ","color":"gray"},{"text":"Константы "},{"text":"("},{"nbt":"game_titles[0]","storage":"core:storage"},{"text":")"},{"text":" Загружено","color":"green"}]

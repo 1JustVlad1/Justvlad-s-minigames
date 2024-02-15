@@ -1,3 +1,5 @@
+execute unless score consts settings matches 1.. run function core:global/init/consts
+
 #Teams
     #global
         team add nocol
@@ -44,6 +46,7 @@
         scoreboard objectives add team dummy
         scoreboard objectives add gamemode dummy
         scoreboard objectives add bug_reports dummy
+        scoreboard objectives add tmp_id dummy
         #consts
             scoreboard players set 1103515245 const 1103515245
             scoreboard players set 32768 const 32768
@@ -75,8 +78,8 @@ setblock 999999 100 999999 shulker_box[facing=north]
 setworldspawn 0 101 0
 
 
-tellraw @a {"text":"[JV's event Core v2.0.0.0] Загружено"}
 data modify storage core:storage current_version set value [2,0,0,0]
+tellraw @a [{"text":"","color":"white"},{"text":"Загружено ","color":"green"},{"text":"JV's event Core ","color":"gray"},{"text":"v"},{"nbt":"current_version[0]","storage":"core:storage","interpret":true},{"text":"."},{"nbt":"current_version[1]","storage":"core:storage","interpret":true},{"text":"."},{"nbt":"current_version[2]","storage":"core:storage","interpret":true},{"text":"."},{"nbt":"current_version[3]","storage":"core:storage","interpret":true}]
 
 function core:global/loop/start
 
@@ -84,4 +87,3 @@ function core:global/loop/start
 function core:global/init/check_lobby
 
 
-execute unless score consts settings matches 1.. run function core:global/init/consts

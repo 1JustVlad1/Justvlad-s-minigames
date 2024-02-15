@@ -4,7 +4,7 @@ tellraw @s[tag=event_helper] [{"text":" ","color":"gray"},{"text":"[Быстро
 
 tellraw @s [{"text":" ","color":"gray"},{"text":"[Переподключиться]","color":"light_purple","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger rejoin"}}]
 
-execute store result score players tmp as @a if predicate lobby:lobby_check
+execute store result score players tmp as @a if dimension map:lobby 
 tellraw @s [{"text":" - ","color":"gray"},{"text":"Лобби","color":"gold"},{"text":" Игроки: ","color":"gray"},{"score":{"objective":"tmp","name":"players"}},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger lobby"}}]
 
 execute store result score players tmp as @a if predicate short_game_name_1:game_1_check
