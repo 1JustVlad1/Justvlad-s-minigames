@@ -8,6 +8,6 @@ tellraw @s {"text":"                                               ","strikethro
 
 tellraw @s [{"text":" ","color":"gray"},{"text":"[В разработке]","color":"green"}]
 
-tellraw @s {"text":"\n\n"}
+tellraw @s {"text":""}
 
 # tellraw @s [{"text":"   Стр.","color":"gray"},{"text":" [ < ] ","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 1"}},{"text":"2 из 3","color":"gray"},{"text":" [ > ]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 3"}}]

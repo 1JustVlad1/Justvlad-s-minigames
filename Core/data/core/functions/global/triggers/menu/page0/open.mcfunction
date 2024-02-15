@@ -28,6 +28,6 @@ execute if score @s menu matches -10000 run function core:global/triggers/menu/p
 # execute if score @s menu matches 3 run function core:global/triggers/menu/page1/profile
 
 
-tellraw @s {"text":"\n\n"}
+tellraw @s {"text":""}
 
 # tellraw @s [{"text":"   Стр.","color":"gray"},{"text":" [ < ] ","color":"gray"},{"text":"1 из 3","color":"gray"},{"text":" [ > ]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 2"}}]

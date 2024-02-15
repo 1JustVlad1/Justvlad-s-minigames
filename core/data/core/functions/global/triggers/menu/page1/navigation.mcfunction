@@ -1,4 +1,4 @@
-tellraw @s [{"text":" ","color":"gray"},{"text":"[x]","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 1"}},{"text":" Навигация","color":"gray"}]
+tellraw @s [{"text":" ","color":"gray"},{"text":"[x]","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 2"}},{"text":" Навигация","color":"gray"}]
 
 tellraw @s[tag=event_helper] [{"text":" ","color":"gray"},{"text":"[Быстрое тп в комнату]","color":"light_purple","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger helper_room"}}]
 

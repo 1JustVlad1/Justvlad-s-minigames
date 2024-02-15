@@ -1,4 +1,4 @@
-tellraw @s [{"text":"[","color":"gray"},{"text":"Игра","color":"light_purple"},{"text":"] ","color":"gray"},{"text":"Сначала присоединитесь к команде!","color":"red"}]
+tellraw @s [{"text":"[","color":"gray"},{"nbt":"game_titles[0]","storage":"core:storage","color":"gold"},{"text":"] ","color":"gray"},{"text":"Сначала присоединитесь к команде!","color":"red"}]
 playsound minecraft:block.note_block.cow_bell master @s ~ ~ ~ 1000 0
 
 tag @s remove sgn1.ready

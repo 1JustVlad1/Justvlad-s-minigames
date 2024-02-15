@@ -10,7 +10,7 @@ team join sgn1.nr_dark_blue @s[team=sgn1.r_dark_blue]
 team join sgn1.nr_gold @s[team=sgn1.r_gold]
 
 execute if score teams sgn1.settings matches 0 run team join lobby @s
-playsound minecraft:block.note_block.guitar master @s ~ ~ ~ 1000 2
+playsound minecraft:entity.experience_orb.pickup master @s ~ ~ ~ 1000 0
 
 scoreboard players reset @s bool
 clear @s #core:all_items{clear:1b,hotbar:1b}
