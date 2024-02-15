@@ -6,5 +6,7 @@ execute if score @s menu matches -10005 run function core:global/triggers/menu/p
 execute if score @s menu matches -10006 run function core:global/triggers/menu/page0/subpage0/game_1/remove_teams
 execute if score @s menu matches -10007 run function core:global/triggers/menu/page0/subpage0/game_1/add_teams
 execute if score @s menu matches -10008 run function core:global/triggers/menu/page0/subpage0/game_1/ready_mode
+execute if score @s menu matches -10009 run function core:global/triggers/menu/page0/subpage0/game_1/teams_mode
 execute if score @s menu matches -10010 run function core:global/triggers/menu/page0/subpage0/lobby/music
+execute if score @s menu matches -10011 run function core:global/triggers/menu/page0/subpage0/game_1/rnd_teams
 

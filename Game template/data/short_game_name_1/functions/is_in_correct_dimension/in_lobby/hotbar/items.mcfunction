@@ -18,7 +18,7 @@ execute if score ready_mode sgn1.settings matches 1 run item replace entity @s[t
 #ready mode 2
 execute if score ready_mode sgn1.settings matches 2 run item replace entity @s[tag=sgn1.ready] hotbar.2 with lime_dye{hotbar:1b,clear:1b,display:{"Name":'[{"text":"Готов ","color":"green","italic":false},{"text":"[Q]","color":"gray","italic":true}]'}}
 
-execute if score ready_mode sgn1.settings matches 2 run item replace entity @s[team=lobby,tag=!sgn1.ready] hotbar.2 with barrier{hotbar:1b,clear:1b,display:{"Name":'[{"text":"Не готов ","color":"red","italic":false},{"text":"[X]","color":"red","italic":true}]'}}
+execute if score ready_mode sgn1.settings matches 2 run item replace entity @s[team=!lobby,tag=!sgn1.ready] hotbar.2 with barrier{hotbar:1b,clear:1b,display:{"Name":'[{"text":"Не готов ","color":"red","italic":false},{"text":"[X]","color":"red","italic":true}]'}}
 
 
 #ready mode 3

@@ -4,6 +4,14 @@ execute if score teams tmp matches 0 unless score teams tmp = teams sgn1.setting
 execute if score teams tmp matches 0 unless score teams tmp = teams sgn1.settings run function short_game_name_1:is_in_correct_dimension/in_lobby/inventory/items
 execute if score teams tmp < teams sgn1.settings run function short_game_name_1:is_in_correct_dimension/in_lobby/inventory/items
 
+tag @s remove blocked_leave
+tag @s remove blocked_join
+execute unless score teams_mode sgn1.settings matches 3 run tag @s remove blocked_all
+execute if score teams_mode sgn1.settings matches 1 run tag @s add blocked_join
+execute if score teams_mode sgn1.settings matches 2 run tag @s add blocked_leave
+execute if score teams_mode sgn1.settings matches 3 run tag @s[team=!lobby] add blocked_all
+execute if score teams_mode sgn1.settings matches 4 run tag @s add blocked_all
+
 #red team
     execute if score red tmp < max.red sgn1.settings if score @s bool matches 1 if score teams sgn1.settings matches 1.. if entity @s[tag=!blocked_join,tag=!blocked_all,team=!sgn1.r_red,team=!sgn1.nr_red,nbt=!{Inventory:[{Slot:9b,tag:{inventory:1b}}]}] run function short_game_name_1:is_in_correct_dimension/in_lobby/inventory/item1_1
     clear @s[nbt=!{Inventory:[{Slot:9b,tag:{inventory:1b}}]}] #core:all_items{clear:1b,inventory:1b}

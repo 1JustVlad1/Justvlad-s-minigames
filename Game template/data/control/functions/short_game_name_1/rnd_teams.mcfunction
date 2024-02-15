@@ -1,0 +1,2 @@
+execute if score teams sgn1.settings matches 1.. run function control:short_game_name_1/rnd_teams/check
+execute unless score teams sgn1.settings matches 1.. run function errors:short_game_name_1/004/no_teams_found

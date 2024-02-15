@@ -4,6 +4,7 @@
 scoreboard players set active sgn1.settings 1
 scoreboard players set teams sgn1.settings 0
 scoreboard players set ready_mode sgn1.settings 0
+scoreboard players set teams_mode sgn1.settings 0
 
 data modify storage core:errors short_game_name_1.log set value []
 
