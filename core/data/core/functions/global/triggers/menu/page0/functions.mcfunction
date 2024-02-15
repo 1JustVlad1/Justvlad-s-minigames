@@ -1,12 +1,10 @@
-execute if score @s menu matches -10001 run function core:global/triggers/menu/page0/subpage0/game_1/start
-execute if score @s menu matches -10002 run function core:global/triggers/menu/page0/subpage0/game_1/stop
-execute if score @s menu matches -10003 run function core:global/triggers/menu/page0/subpage0/game_1/activate
-execute if score @s menu matches -10004 run function core:global/triggers/menu/page0/subpage0/game_1/deactivate
-execute if score @s menu matches -10005 run function core:global/triggers/menu/page0/subpage0/game_1/white_list
-execute if score @s menu matches -10006 run function core:global/triggers/menu/page0/subpage0/game_1/remove_teams
-execute if score @s menu matches -10007 run function core:global/triggers/menu/page0/subpage0/game_1/add_teams
-execute if score @s menu matches -10008 run function core:global/triggers/menu/page0/subpage0/game_1/ready_mode
-execute if score @s menu matches -10009 run function core:global/triggers/menu/page0/subpage0/game_1/teams_mode
-execute if score @s menu matches -10010 run function core:global/triggers/menu/page0/subpage0/lobby/music
-execute if score @s menu matches -10011 run function core:global/triggers/menu/page0/subpage0/game_1/rnd_teams
-
+execute if score @s menu matches -10050..-10001 run function short_game_name_1:triggers/menu/functions
+execute if score @s menu matches -10100..-10051 run function lobby:triggers/menu/functions
+execute if score @s menu matches -10150..-10101 run function short_game_name_2:triggers/menu/functions
+execute if score @s menu matches -10200..-10151 run function short_game_name_3:triggers/menu/functions
+execute if score @s menu matches -10250..-10201 run function short_game_name_4:triggers/menu/functions
+execute if score @s menu matches -10300..-10251 run function short_game_name_5:triggers/menu/functions
+execute if score @s menu matches -10350..-10301 run function short_game_name_6:triggers/menu/functions
+execute if score @s menu matches -10400..-10351 run function short_game_name_7:triggers/menu/functions
+execute if score @s menu matches -10450..-10401 run function short_game_name_8:triggers/menu/functions
+execute if score @s menu matches -10500..-10451 run function short_game_name_9:triggers/menu/functions

@@ -1,0 +1,3 @@
+tellraw @s[tag=!event_helper] [{"text":" ","color":"gray"},{"text":"[Лобби]","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -11"}}]
+tellraw @s[tag=event_helper] [{"text":" ","color":"gray"},{"text":"[Лобби] ","color":"yellow","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -11"}},{"text":"[✎]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Настройки"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -1000"}}]
+

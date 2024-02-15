@@ -5,26 +5,26 @@ tellraw @s [{"text":"  "},{"text":"Игра","color":"gray","underlined":true},{
 tellraw @s {"text":"                                               ","strikethrough":true,"color":"dark_gray","italic":true}
 
 execute if score @s menu matches -1 run function core:global/triggers/menu/page0/header
-execute if score @s menu matches -2 run function core:global/triggers/menu/page0/subpage0/game_1/open
-execute if score @s menu matches -3 run function core:global/triggers/menu/page0/subpage0/game_2/open
-execute if score @s menu matches -4 run function core:global/triggers/menu/page0/subpage0/game_3/open
-execute if score @s menu matches -5 run function core:global/triggers/menu/page0/subpage0/game_4/open
-execute if score @s menu matches -6 run function core:global/triggers/menu/page0/subpage0/game_5/open
-execute if score @s menu matches -7 run function core:global/triggers/menu/page0/subpage0/game_6/open
-execute if score @s menu matches -8 run function core:global/triggers/menu/page0/subpage0/game_7/open
-execute if score @s menu matches -9 run function core:global/triggers/menu/page0/subpage0/game_8/open
-execute if score @s menu matches -10 run function core:global/triggers/menu/page0/subpage0/game_9/open
-execute if score @s menu matches -11 run function core:global/triggers/menu/page0/subpage0/lobby/open
-execute if score @s menu matches -1000 run function core:global/triggers/menu/page0/subpage0/lobby/edit
-execute if score @s menu matches -2000 run function core:global/triggers/menu/page0/subpage0/game_1/edit
-execute if score @s menu matches -3000 run function core:global/triggers/menu/page0/subpage0/game_2/edit
-execute if score @s menu matches -4000 run function core:global/triggers/menu/page0/subpage0/game_3/edit
-execute if score @s menu matches -5000 run function core:global/triggers/menu/page0/subpage0/game_4/edit
-execute if score @s menu matches -6000 run function core:global/triggers/menu/page0/subpage0/game_5/edit
-execute if score @s menu matches -7000 run function core:global/triggers/menu/page0/subpage0/game_6/edit
-execute if score @s menu matches -8000 run function core:global/triggers/menu/page0/subpage0/game_7/edit
-execute if score @s menu matches -9000 run function core:global/triggers/menu/page0/subpage0/game_8/edit
-execute if score @s menu matches -10000 run function core:global/triggers/menu/page0/subpage0/game_9/edit
+execute if score @s menu matches -2 run function short_game_name_1:triggers/menu/open
+execute if score @s menu matches -3 run function short_game_name_2:triggers/menu/open
+execute if score @s menu matches -4 run function short_game_name_3:triggers/menu/open
+execute if score @s menu matches -5 run function short_game_name_4:triggers/menu/open
+execute if score @s menu matches -6 run function short_game_name_5:triggers/menu/open
+execute if score @s menu matches -7 run function short_game_name_6:triggers/menu/open
+execute if score @s menu matches -8 run function short_game_name_7:triggers/menu/open
+execute if score @s menu matches -9 run function short_game_name_8:triggers/menu/open
+execute if score @s menu matches -10 run function short_game_name_9:triggers/menu/open
+execute if score @s menu matches -11 run function lobby:triggers/menu/open
+execute if score @s menu matches -1000 run function lobby:triggers/menu/helper_settings/edit
+execute if score @s menu matches -2000 run function short_game_name_1:triggers/menu/helper_settings/edit
+execute if score @s menu matches -3000 run function short_game_name_2:triggers/menu/helper_settings/edit
+execute if score @s menu matches -4000 run function short_game_name_3:triggers/menu/helper_settings/edit
+execute if score @s menu matches -5000 run function short_game_name_4:triggers/menu/helper_settings/edit
+execute if score @s menu matches -6000 run function short_game_name_5:triggers/menu/helper_settings/edit
+execute if score @s menu matches -7000 run function short_game_name_6:triggers/menu/helper_settings/edit
+execute if score @s menu matches -8000 run function short_game_name_7:triggers/menu/helper_settings/edit
+execute if score @s menu matches -9000 run function short_game_name_8:triggers/menu/helper_settings/edit
+execute if score @s menu matches -10000 run function short_game_name_9:triggers/menu/helper_settings/edit
 # execute if score @s menu matches 3 run function core:global/triggers/menu/page1/profile
 
 

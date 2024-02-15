@@ -23,3 +23,4 @@ scoreboard players enable @s msg
 
 scoreboard players enable @s menu
 scoreboard players enable @s help
+

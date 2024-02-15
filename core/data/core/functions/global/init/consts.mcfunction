@@ -29,7 +29,7 @@ gamerule mobGriefing false
 #
 
 data modify storage core:donate links set value ["https://www.donationalerts.com/r/it_was_goose"]
-data modify storage core:storage game_titles set value ["Game#1","Game#2","Game#3","Game#4","Game#5","Game#6","Game#7","Game#8","Game#9"]
+data modify storage core:storage game_titles set value ["SquidCatch","Mini-games Rush","Game#3","Game#4","Game#5","Game#6","Game#7","Game#8","Game#9"]
 
 data modify storage core:errors log set value []
 data modify storage core:errors core.log set value []

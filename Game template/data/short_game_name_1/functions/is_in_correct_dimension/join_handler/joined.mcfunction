@@ -5,6 +5,7 @@ playsound minecraft:block.beacon.activate master @s ~ ~ ~ 1000 2
 
 execute if score @s sgn1 matches 1 run team leave @s
 
+execute unless score @s rejoin matches 1 if score rejoin_threshold sgn1.settings matches ..-1 run function short_game_name_1:save_system/load_player_vars
 
 execute if score @s rejoin matches 1 run function short_game_name_1:save_system/load_player_vars
 execute if score @s rejoin matches 1 run scoreboard players reset @s[team=!lobby] rejoin_timer
