@@ -1,4 +1,4 @@
-tellraw @s [{"text":" ","color":"gray"},{"text":"[x]","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 1"}},{"text":" [Профиль]","color":"gray"}]
+tellraw @s [{"text":" ","color":"gray"},{"text":"[x]","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set 1"}},{"text":" Профиль","color":"gray"}]
 
 scoreboard players operation id_search tmp = @s id
 function core:player_profile/find_by_id
