@@ -1,3 +1,12 @@
+tellraw @s [{"text":" ","color":"gray"},{"text":"[x] ","color":"red","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -1"}},{"nbt":"game_titles[0]","storage":"core:storage","color":"gold"},{"text":" -> Игроки","color":"gold"},{"text":" [✎]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Настройки"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -2000"}},{"text":" ","color":"gold"},{"text":"[⛏]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Инструменты"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -2200"}}]
+
+tellraw @s [{"text":"  "},{"text":"Все","color":"gray","underlined":true},{"text":"   "},{"text":"На режиме","color":"gray","underlined":false,"hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -2600"}},{"text":"                      ","color":"gold"},{"text":"[!]","color":"gold","hoverEvent":{"action":"show_text","contents":[{"text":"Нажмите, чтобы обновить список"}]},"clickEvent":{"action":"run_command","value":"/trigger menu set -2400"}}]
+
+tellraw @s {"text":"                                               ","strikethrough":true,"color":"dark_gray","italic":true}
+
+
+
+
 
 function core:global/triggers/menu/page0/players/calc_number_of_subpages
 

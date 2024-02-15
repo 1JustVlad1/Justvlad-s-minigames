@@ -1,6 +1,5 @@
 tellraw @s [{"text":"[","color":"gray"},{"text":"Jv's minigames","color":"light_purple"},{"text":"] ","color":"gray"},{"text":"Меню v1.0.0.0 ","color":"yellow","italic":false},{"text":"[!]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Оставить отзыв"}]},"clickEvent":{"action":"run_command","value":"/trigger bug_report"}}]
 
-execute if score @s[tag=event_helper] menu matches ..-1 run function core:global/triggers/menu/page0/functions
 
 
 execute if score @s[tag=!event_helper] menu matches 1..19 run function core:global/triggers/menu/page1/open
