@@ -1,0 +1,1 @@
+tellraw @a [{"text":"- ","color":"gray"},{"text":"Карта ","color":"white"},{"text":"[?]","color":"green","hoverEvent":{"action":"show_text","contents":"ID установленной карты не совпадает с существующими\nНажмите здесь, чтобы получить команду"},"clickEvent":{"action":"suggest_command","value":"/function debug:check_maps"}}]

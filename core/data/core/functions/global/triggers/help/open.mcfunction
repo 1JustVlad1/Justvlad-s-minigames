@@ -1,0 +1,10 @@
+tellraw @s [{"text":"[","color":"gray"},{"text":"Jv's minigames","color":"light_purple"},{"text":"] ","color":"gray"},{"text":"Помощь v1.0.0.0:","color":"yellow","italic":false}]
+tellraw @s [{"text":" Что вас интересует?","color":"gray"}]
+tellraw @s[tag=event_helper] [{"text":"  - ","color":"gray"},{"text":"Для помощников","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 2"}}]
+tellraw @s [{"text":"  - ","color":"gray"},{"text":"Перемещение по серверу","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 3"}}]
+tellraw @s [{"text":"  - ","color":"gray"},{"text":"Работа основных триггеров","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 4"}}]
+# tellraw @s [{"text":"  - ","color":"gray"},{"text":"Уведомления","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 5"}}]
+# tellraw @s [{"text":"  - ","color":"gray"},{"text":"Профиль","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 6"}}]
+# tellraw @s [{"text":"  - ","color":"gray"},{"text":"Почта","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 7"}}]
+# tellraw @s [{"text":"  - ","color":"gray"},{"text":"Друзья","color":"white","italic":false},{"text":" [>]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 8"}}]
+

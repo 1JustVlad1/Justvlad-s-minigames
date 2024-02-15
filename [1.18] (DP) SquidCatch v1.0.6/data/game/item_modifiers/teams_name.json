@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "game:teams"
+      },
+      "ops": [
+        {
+          "source": "name.Text",
+          "target": "display.Name",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

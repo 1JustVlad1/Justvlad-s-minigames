@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{display:{Name:'{"text":"Спавн - game#1 Лобби","italic":false}'},EntityTag:{Tags:["egg","lobby","spawn","short_game_name_1"]}}

@@ -1,0 +1,1 @@
+execute in map:lobby run tp @s 1000 100 1000

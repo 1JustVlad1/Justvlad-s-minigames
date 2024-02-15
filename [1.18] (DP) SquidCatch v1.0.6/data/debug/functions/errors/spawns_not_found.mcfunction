@@ -1,0 +1,1 @@
+tellraw @a [{"text":"- ","color":"gray"},{"text":"Спавны карт","color":"white"},{"text":" (мин. 1) ","color":"gray"},{"text":"[?]","color":"green","hoverEvent":{"action":"show_text","contents":"Ни одного спавна не найдено\nНажмите здесь, чтобы получить команду"},"clickEvent":{"action":"suggest_command","value":"/function debug:give/spawn/all"}}]

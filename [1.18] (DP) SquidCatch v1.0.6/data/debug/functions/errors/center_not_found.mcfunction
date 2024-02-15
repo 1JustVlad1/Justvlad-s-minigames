@@ -1,0 +1,1 @@
+tellraw @a [{"text":"- ","color":"gray"},{"text":"Центр Карты ","color":"white"},{"text":"[?]","color":"green","hoverEvent":{"action":"show_text","contents":"Центр карты не найден\nНажмите здесь, чтобы получить команду"},"clickEvent":{"action":"suggest_command","value":"/function debug:give/center"}}]

@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{display:{Name:'[{"text":"Центр","italic":false}]'},EntityTag:{Tags:["center"]}}

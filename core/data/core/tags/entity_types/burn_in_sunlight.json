@@ -1,0 +1,17 @@
+{
+	"description": "Mobs that burn when in sunlight",
+	"values": [
+		{
+			"id": "#core:zombies",
+			"required": false
+		},
+		{
+			"id": "#minecraft:skeletons",
+			"required": false
+		},
+		{
+			"id": "minecraft:phantom",
+			"required": false
+		}
+	]
+}

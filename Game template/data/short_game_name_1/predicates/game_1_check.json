@@ -1,0 +1,10 @@
+{
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "location": {
+        "dimension": "map:short_game_name_1"
+      }
+    }
+  }
+  

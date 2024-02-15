@@ -1,0 +1,17 @@
+{
+	"description": "All mob entities",
+	"values": [
+		{
+			"id": "#core:passive",
+			"required": false
+		},
+		{
+			"id": "#core:neutral",
+			"required": false
+		},
+		{
+			"id": "#core:hostile",
+			"required": false
+		}
+	]
+}

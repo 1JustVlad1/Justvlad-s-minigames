@@ -1,0 +1,13 @@
+{
+	"description": "Stripped wood (bark) blocks and stripped hyphae",
+	"values": [
+		{
+			"id": "#core:stripped_ovemorld_wood",
+			"required": false
+		},
+		{
+			"id": "#core:stripped_hyphae",
+			"required": false
+		}
+	]
+}

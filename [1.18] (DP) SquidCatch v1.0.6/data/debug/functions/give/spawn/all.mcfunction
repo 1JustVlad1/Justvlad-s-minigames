@@ -1,0 +1,2 @@
+tellraw @s [{"text":"[","color":"gray"},{"text":"Debug","color":"red"},{"text":"] ","color":"gray"},{"text":"Перед установкой убедитесь, что ID карты установлен правильно ","color":"white"},{"text":"[?]","color":"green","hoverEvent":{"action":"show_text","contents":"Проверьте все ID на наличие занятых\nНажмите здесь, чтобы получить команду"},"clickEvent":{"action":"suggest_command","value":"/function debug:check_maps"}}]
+give @s bat_spawn_egg{display:{Name:'{"text":"Спавн - Все","italic":false}'},EntityTag:{Tags:["all","spawn"]}}

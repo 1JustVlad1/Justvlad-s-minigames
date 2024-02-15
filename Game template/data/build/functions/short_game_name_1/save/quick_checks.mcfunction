@@ -1,0 +1,3 @@
+execute if score month settings matches 3..11 in build:short_game_name_1/main run function build:short_game_name_1/save/main
+execute if score month settings matches 12 in build:short_game_name_1/theme/winter run function build:short_game_name_1/save/theme/winter
+execute if score month settings matches 1..2 in build:short_game_name_1/theme/winter run function build:short_game_name_1/save/theme/winter

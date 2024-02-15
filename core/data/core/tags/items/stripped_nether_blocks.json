@@ -1,0 +1,13 @@
+{
+	"description": "Stripped stems and hyphae",
+	"values": [
+		{
+			"id": "#core:stripped_stems",
+			"required": false
+		},
+		{
+			"id": "#core:stripped_hyphae",
+			"required": false
+		}
+	]
+}

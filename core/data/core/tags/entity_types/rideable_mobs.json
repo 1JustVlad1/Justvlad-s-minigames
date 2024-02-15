@@ -1,0 +1,21 @@
+{
+	"description": "Mobs that players can ride",
+	"values": [
+		{
+			"id": "#core:display_horse_armor",
+			"required": false
+		},
+		{
+			"id": "minecraft:pig",
+			"required": false
+		},
+		{
+			"id": "minecraft:llama",
+			"required": false
+		},
+		{
+			"id": "minecraft:strider",
+			"required": false
+		}
+	]
+}

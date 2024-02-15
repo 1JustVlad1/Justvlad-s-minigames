@@ -1,0 +1,2 @@
+
+function short_game_name_1:join_handler/joined

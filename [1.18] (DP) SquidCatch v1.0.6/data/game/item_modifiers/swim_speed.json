@@ -1,0 +1,17 @@
+[
+    {
+      "function": "minecraft:set_enchantments",
+      "enchantments": {
+        "minecraft:depth_strider": {
+          "type": "minecraft:score",
+          "target": {
+            "type": "minecraft:fixed",
+            "name": "swimmingSpeed"
+          },
+          "score": "settings",
+          "scale": 1
+        }
+      }
+    }
+  ]
+  

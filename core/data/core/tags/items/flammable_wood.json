@@ -1,0 +1,33 @@
+{
+	"description": "All wood blocks (logs, stripped logs, wood, stripped wood, planks, slabs, fences, fence gates, signs and stairs) built from ovemorld trees, not to be confused with wood (bark) blocks only",
+	"values": [
+		{
+			"id": "#core:flammable_planks",
+			"required": false
+		},
+		{
+			"id": "#core:flammable_slabs",
+			"required": false
+		},
+		{
+			"id": "#core:flammable_fence_gates",
+			"required": false
+		},
+		{
+			"id": "#core:flammable_fences",
+			"required": false
+		},
+		{
+			"id": "#core:flammable_signs",
+			"required": false
+		},
+		{
+			"id": "#core:flammable_stairs",
+			"required": false
+		},
+		{
+			"id": "#minecraft:logs_that_burn",
+			"required": false
+		}
+	]
+}

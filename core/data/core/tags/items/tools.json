@@ -1,0 +1,57 @@
+{
+	"description": "Everything in the tools tab, excluding enchanted books",
+	"values": [
+		{
+			"id": "#core:wooden_tools",
+			"required": false
+		},
+		{
+			"id": "#core:stone_tools",
+			"required": false
+		},
+		{
+			"id": "#core:golden_tools",
+			"required": false
+		},
+		{
+			"id": "#core:iron_tools",
+			"required": false
+		},
+		{
+			"id": "#core:diamond_tools",
+			"required": false
+		},
+		{
+			"id": "#core:netherite_tools",
+			"required": false
+		},
+		{
+			"id": "minecraft:shears",
+			"required": false
+		},
+		{
+			"id": "minecraft:flint_and_steel",
+			"required": false
+		},
+		{
+			"id": "minecraft:compass",
+			"required": false
+		},
+		{
+			"id": "minecraft:fishing_rod",
+			"required": false
+		},
+		{
+			"id": "minecraft:clock",
+			"required": false
+		},
+		{
+			"id": "minecraft:name_tag",
+			"required": false
+		},
+		{
+			"id": "minecraft:lead",
+			"required": false
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+	"description": "All items, including air",
+	"values": [
+		{
+			"id": "#core:all_but_air",
+			"required": false
+		},
+		{
+			"id": "minecraft:air",
+			"required": false
+		},
+		{
+			"id": "minecraft:light",
+			"required": false
+		}
+	]
+}

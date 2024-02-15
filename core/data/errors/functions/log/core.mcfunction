@@ -1,0 +1,13 @@
+tellraw @s [{"text":"[","color":"gray"},{"text":"Debug","color":"red"},{"text":"] ","color":"gray"},{"text":"Список последних 10 ошибок core:"}]
+execute if data storage core:errors core.log[9] run tellraw @s [{"text":"- "},{"nbt":"core.log[9].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[9].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[8] run tellraw @s [{"text":"- "},{"nbt":"core.log[8].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[8].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[7] run tellraw @s [{"text":"- "},{"nbt":"core.log[7].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[7].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[6] run tellraw @s [{"text":"- "},{"nbt":"core.log[6].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[6].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[5] run tellraw @s [{"text":"- "},{"nbt":"core.log[5].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[5].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[4] run tellraw @s [{"text":"- "},{"nbt":"core.log[4].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[4].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[3] run tellraw @s [{"text":"- "},{"nbt":"core.log[3].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[3].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[2] run tellraw @s [{"text":"- "},{"nbt":"core.log[2].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[2].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[1] run tellraw @s [{"text":"- "},{"nbt":"core.log[1].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[1].timestamp","storage":"core:errors","interpret":false}]
+execute if data storage core:errors core.log[0] run tellraw @s [{"text":"- "},{"nbt":"core.log[0].Error","storage":"core:errors","interpret":true},{"text":" "},{"nbt":"core.log[0].timestamp","storage":"core:errors","interpret":false}]
+
+execute unless data storage core:errors core.log[0] run tellraw @s [{"text":"- Не было выявлено"}]

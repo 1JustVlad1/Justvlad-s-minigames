@@ -1,0 +1,29 @@
+{
+	"description": "Blocks that can emit light; if a block is in this tag but not in #core:emit_light, test for the [lit=true] block state to tell whether it is currently emitting light or not",
+	"values": [
+		{
+			"id": "#core:emit_light",
+			"required": false
+		},
+		{
+			"id": "#core:furnaces",
+			"required": false
+		},
+		{
+			"id": "#core:campfires",
+			"required": false
+		},
+		{
+			"id": "minecraft:redstone_lamp",
+			"required": false
+		},
+		{
+			"id": "minecraft:redstone_ore",
+			"required": false
+		},
+		{
+			"id": "minecraft:redstone_torch",
+			"required": false
+		}
+	]
+}

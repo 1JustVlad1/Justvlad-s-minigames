@@ -1,0 +1,9 @@
+item replace entity @s inventory.0 with air
+item replace entity @s inventory.1 with air
+item replace entity @s inventory.2 with air
+item replace entity @s inventory.3 with air
+item replace entity @s inventory.4 with air
+item replace entity @s inventory.5 with air
+item replace entity @s inventory.6 with air
+item replace entity @s inventory.7 with air
+item replace entity @s inventory.8 with air

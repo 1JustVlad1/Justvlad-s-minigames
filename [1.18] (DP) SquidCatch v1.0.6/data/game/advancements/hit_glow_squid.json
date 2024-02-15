@@ -1,0 +1,21 @@
+{
+  "parent": "core:root",
+  "criteria": {
+    "hit": {
+      "trigger": "minecraft:player_hurt_entity",
+      "conditions": {
+        "entity": {
+          "type": "minecraft:glow_squid"
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "hit"
+    ]
+  ],
+  "rewards": {
+    "function": "game:state/in_game/hit_glow_squid"
+  }
+}

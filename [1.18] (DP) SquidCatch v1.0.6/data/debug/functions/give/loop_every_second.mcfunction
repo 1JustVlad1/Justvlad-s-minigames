@@ -1,0 +1,1 @@
+give @s bat_spawn_egg{display:{Name:'[{"text":"Повторитель каждую секунду","italic":false}]'},EntityTag:{Tags:["loopeverysec"]}}

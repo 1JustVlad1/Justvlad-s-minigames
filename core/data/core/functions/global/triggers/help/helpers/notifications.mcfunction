@@ -1,0 +1,5 @@
+tellraw @s [{"text":"[","color":"gray"},{"text":"Jv's minigames","color":"light_purple"},{"text":"] ","color":"gray"},{"text":"Помощь v1.0.0.0:","color":"yellow","italic":false,"hoverEvent":{"action":"show_text","contents":[{"text":"Перейти в помощь"}]},"clickEvent":{"action":"run_command","value":"/trigger help"}}]
+
+tellraw @s [{"text":" Для помощников","color":"gray","hoverEvent":{"action":"show_text","contents":[{"text":"Перейти"}]},"clickEvent":{"action":"run_command","value":"/trigger help set 2"}},{"text":" -> ","color":"gray","hoverEvent":{"action":"show_text","contents":[{"text":""}]}},{"text":"Уведомления","color":"gray","hoverEvent":{"action":"show_text","contents":[{"text":""}]}}]
+
+tellraw @s [{"text":"   1. ","color":"gray"},{"text":"Баг репорты","color":"white","italic":false},{"text":" [?]","color":"green","hoverEvent":{"action":"show_text","contents":[{"text":"Игроки могут оставлять отзывы об играх. Поэтому у помощников существует отдельная вкладка уведомлений, для того чтобы знать, какой отзыв был оставлен."}]}}]

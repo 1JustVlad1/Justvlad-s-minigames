@@ -1,0 +1,13 @@
+{
+	"description": "Logs and stems that generate naturally, excluding stripped logs and wood (bark) blocks",
+	"values": [
+		{
+			"id": "#core:natural_ovemorld_logs",
+			"required": false
+		},
+		{
+			"id": "#core:natural_stems",
+			"required": false
+		}
+	]
+}

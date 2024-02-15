@@ -1,0 +1,27 @@
+[
+    {
+      "function": "minecraft:copy_nbt",
+      "source": {
+        "type": "minecraft:storage",
+        "source": "core:storage"
+      },
+      "ops": [
+        {
+          "source": "tmp[0].report_book.tag.addresseeId",
+          "target": "addresseeId",
+          "op": "replace"
+        },
+        {
+          "source": "tmp[0].report_book.tag.title",
+          "target": "title",
+          "op": "replace"
+        },
+        {
+          "source": "tmp[0].report_book.tag.author",
+          "target": "author",
+          "op": "replace"
+        }
+      ]
+    }
+  ]
+  

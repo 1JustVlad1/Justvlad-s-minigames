@@ -1,0 +1,1 @@
+give @s minecraft:oak_sign{BlockEntityTag:{Text1:'{"text":"Нажмите, чтобы","color":"white","clickEvent":{"action":"run_command","value":"/function debug:sign/install/mode_select"}}',Text2:'{"text":"установить","color":"white"}'}}

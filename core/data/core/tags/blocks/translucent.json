@@ -1,0 +1,21 @@
+{
+	"description": "Transparent blocks whose models support translucency",
+	"values": [
+		{
+			"id": "#core:glass",
+			"required": false
+		},
+		{
+			"id": "#core:glass_panes",
+			"required": false
+		},
+		{
+			"id": "minecraft:tripwire",
+			"required": false
+		},
+		{
+			"id": "minecraft:nether_portal",
+			"required": false
+		}
+	]
+}

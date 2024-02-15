@@ -1,0 +1,1 @@
+execute in map:short_game_name_1 run tp @s 1000 100 1000
